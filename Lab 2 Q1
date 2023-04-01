@@ -19,7 +19,7 @@
   <script>
 
   // initialize the map
-  var map = L.map('map').setView([40, -89], 10);
+  var map = L.map('map').setView([90.404, 23.849], 10);
 
   // load a tile layer
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
