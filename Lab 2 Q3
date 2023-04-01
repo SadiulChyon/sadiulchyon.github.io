@@ -19,8 +19,10 @@
   <script>
 
   // initialize the map
-  var map = L.map('map').setView([90.404, 23.849], 10);
-  var geojeson = {
+  var map = L.map('map').setView([40, -89], 10);
+  L.marker([40.1, -89.1]).addTo(map);
+  
+  var geojson = {
   "type": "FeatureCollection",
   "features": [
     {
